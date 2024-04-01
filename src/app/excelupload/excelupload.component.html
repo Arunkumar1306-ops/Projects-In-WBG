@@ -1,0 +1,45 @@
+<!-- <div class="mb-3">
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input  (click)="excelupload($event)"class="form-control" type="file" id="formFile">
+  </div> -->
+<div>
+ <input class="form-control" type="file" (change)="handleImport($event)" accept=".xlsx, .xls, .csv"/>
+
+<!-- <button class="btn-primary" (click)="handleImport($event)">upload</button> -->
+</div>
+
+    <!-- <div class="row">
+        <div class="col-sm-6 offset-3">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">FirstName</th>
+                        <th scope="col">LastName</th>
+                        <th scope="col">DOB</th>
+                        <th scope="col">EmailId</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngIf="upload.length">
+                        <tr *ngFor="let movie of upload; let i = index">
+                            
+                            <td>{{ movie.FirstName }}</td>
+                            <td>{{ movie.LastName }}</td>
+                            <td>{{ movie.DOB}}</td>
+                            <td>{{ movie.EmailId }}</td>
+                        </tr>
+                    </ng-container>
+                   
+                </tbody>
+            </table>
+            <div class="col-md-6 mt-3">
+                <button (click)="handleExport()" class="btn btn-primary float-right">
+                    Download <i class="fa fa-download"></i>
+                </button>
+            </div>
+            <div>
+        </div> -->
+ 
+
+ 
